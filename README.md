@@ -5,7 +5,11 @@
 
 1) register https://app.terraform.io/app with your mailbox
 
-2) [create user token](https://www.terraform.io/docs/cloud/users-teams-organizations/users.html#api-tokens)
+2) create organization, workspaces, and user token
+
+- [create user token](https://www.terraform.io/docs/cloud/users-teams-organizations/users.html#api-tokens)
+- [create organization](https://www.terraform.io/docs/cloud/users-teams-organizations/users.html#after-creating-an-account)
+- [create workspace](https://www.terraform.io/docs/cloud/getting-started/workspaces.html)
 
 3)  add token in file  `$HOME/.terraformrc`
 

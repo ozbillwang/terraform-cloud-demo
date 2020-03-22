@@ -1,0 +1,9 @@
+{
+  "data": {
+    "type": "organizations",
+    "attributes": {
+      "name": "bill",
+      "email": "user@example.com"
+    }
+  }
+}
