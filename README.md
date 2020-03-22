@@ -11,6 +11,8 @@
 - [create organization](https://www.terraform.io/docs/cloud/users-teams-organizations/users.html#after-creating-an-account)
 - [create workspace](https://www.terraform.io/docs/cloud/getting-started/workspaces.html)
 
+Adjust organization and workspace name in [backend_cloud.hcl](backend_cloud.hcl)
+
 3)  add token in file  `$HOME/.terraformrc`
 
 ```
