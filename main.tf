@@ -1,12 +1,5 @@
 terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "bill"
-
-    workspaces {
-      name = "demo"
-    }
-  }
+  backend "remote" {}
 }
 
 provider "aws" {
@@ -14,8 +7,8 @@ provider "aws" {
 }
 
 resource "random_password" "password" {
-  length = 16
-  special = true
+  length           = 16
+  special          = true
   override_special = "_%@"
 }
 
